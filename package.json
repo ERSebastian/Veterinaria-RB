@@ -1,0 +1,20 @@
+{
+  "name": "cotillon",
+  "version": "1.0.0",
+  "description": "Pagina cotillon Lapislazuli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Sebastian Elefanté",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
+
+
+
