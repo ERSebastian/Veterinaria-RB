@@ -2,7 +2,7 @@
   width: 100%;
   height: 150px;
   background-color: #1e854c;
-  position: absolute;
+  position: fixed;
   top: 0;
   transition: top 1s; }
   .nav a {
@@ -24,3 +24,10 @@
 
 body {
   margin: 0; }
+
+/*Le doy este margen superior al contenido principal, 
+  porque cuando se despliegue el nav con position fixed, 
+  va a tapar parte del contenido*/
+main {
+  margin-top: 150px;
+}
