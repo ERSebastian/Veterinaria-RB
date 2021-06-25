@@ -24,3 +24,10 @@
 
 body {
   margin: 0; }
+
+/*Le doy este margen superior al contenido principal, 
+  porque cuando se despliegue el nav con position fixed, 
+  va a tapar parte del contenido*/
+main {
+  margin-top: 150px;
+}
