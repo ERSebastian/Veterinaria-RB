@@ -5,6 +5,7 @@
     position: fixed;
     top: 0;
     transition: top 1s;
+    z-index: 1;
 
     a {
         display: inline-block;
