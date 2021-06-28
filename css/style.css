@@ -1,11 +1,14 @@
 .nav {
-  width: 100%;
+  width: 40%;
   height: 150px;
+  margin-left: 30%;
   background-color: #1e854c;
   position: fixed;
   top: 0;
-  transition: top 1s;
-  z-index: 1; }
+  transition: top 0.5s;
+  z-index: 1;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px; }
   .nav a {
     display: inline-block;
     color: #7efa99;
@@ -23,16 +26,20 @@
 .navBoton {
   text-align: center; }
 
+.relleno {
+  width: 100%;
+  height: 100px;
+  background-color: #1e854c; }
+
 .googleMap {
   display: block;
-  position: relative;
   height: 400px;
-  width: 100%; }
+  width: 600px; }
 
 body {
   margin: 0; }
 
-.cuadroPresentacion {
+.prueba {
   width: 100%;
-  height: 300px;
-  background-color: #1e854c; }
+  height: 600px;
+  background-color: red; }
